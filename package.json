@@ -13,5 +13,8 @@
     "schema"
   ],
   "author": "sachq",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "csvtojson": "^0.5.12"
+  }
 }
