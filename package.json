@@ -1,0 +1,17 @@
+{
+  "name": "schema-generator",
+  "version": "0.0.1",
+  "description": "generate schema for google big query",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "gcloud",
+    "bigQuery",
+    "json",
+    "schema"
+  ],
+  "author": "sachq",
+  "license": "ISC"
+}

@@ -1,0 +1,1 @@
+[{"name":"name","type":"string","mode":"required"},{"name":"id","type":"integer","mode":"required"},{"name":"percentile","type":"float","mode":"required"},{"name":"working","type":"boolean","mode":"required"}]
