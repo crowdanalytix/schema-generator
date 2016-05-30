@@ -1,2 +1,5 @@
 #Ignored files
 .DS_STORE
+
+#Ignored folders
+node_modules/
