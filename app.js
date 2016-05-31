@@ -4,7 +4,7 @@ var Converter = require('csvtojson').Converter;
 var converter = new Converter({});
 
 var fileToConvert = {
-	csv: 'data.csv'
+	csvFile: 'data.csv'
 };
 
 /* Generate Schema for a given JSON file */
@@ -35,4 +35,4 @@ converter.on("end_parsed", function(JSONArr) {
 	schema.generate(sampleOutputFile);
 });
 
-require('fs').createReadStream(fileToConvert.csv).pipe(converter);
+require('fs').createReadStream(fileToConvert.csvFile).pipe(converter);
