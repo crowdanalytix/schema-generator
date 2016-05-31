@@ -1,5 +1,12 @@
 #Ignored files
 .DS_STORE
+npm-debug.log
+
+#Ignore all sample data
+*.csv
+sample_output.json
+sample_data.json
+schema.json
 
 #Ignored folders
 node_modules/

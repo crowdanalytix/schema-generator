@@ -51,7 +51,7 @@ exports.getType = function(value) {
 }
 
 exports.csvTraverse = function (fields, o) {
-  var obj = o[1],
+  var obj = o[0],
       keys = Object.keys(obj);
   keys.forEach(function(key) {
     var name = key,
