@@ -3,6 +3,10 @@ var sg = require('./schema-generator');
 var Converter = require('csvtojson').Converter;
 var converter = new Converter({});
 
+var fileToConvert = {
+	csv: 'data.csv'
+};
+
 /* Generate Schema for a given JSON file */
 var schema = {
 	generate: function(filename) {
@@ -31,4 +35,4 @@ converter.on("end_parsed", function(JSONArr) {
 	schema.generate(sampleOutputFile);
 });
 
-require('fs').createReadStream('dashboard_data.csv').pipe(converter);
+require('fs').createReadStream(fileToConvert.csv).pipe(converter);
